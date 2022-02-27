@@ -52,7 +52,7 @@ public abstract class Material {
 
     @Override
     public String toString() {
-        return "model.Material{" +
+        return "Material{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", manufacturingDate=" + manufacturingDate +

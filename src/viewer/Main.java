@@ -47,8 +47,7 @@ public class Main {
             System.out.println("5. Số tiền nhận của vật liệu hôm nay");
             System.out.println("6. Số tiền nhận theo ID");
             System.out.println("7. Số tiền nhận theo chiết khấu tại ngày hôm nay");
-            System.out.println("8. Số tiền nhận chênh lệch theo ID");
-            System.out.println("9. Hiển thị danh sách vật liệu");
+            System.out.println("8. Hiển thị danh sách vật liệu");
             System.out.println("0. Exit");
             choice = inputChoice.nextInt();
             switch (choice){
@@ -83,8 +82,6 @@ public class Main {
                     Method.differenceMoneyWithoutDiscount(materials);
                     break;
                 case 8:
-                    break;
-                case 9:
                     Method.display(materials);
                     break;
                 case 0:

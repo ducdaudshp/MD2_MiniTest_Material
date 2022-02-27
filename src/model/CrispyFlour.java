@@ -18,6 +18,7 @@ public class CrispyFlour extends Material implements Discount {
     }
 
     public double getQuantity() {
+
         return quantity;
     }
 
@@ -62,7 +63,7 @@ public class CrispyFlour extends Material implements Discount {
 
     @Override
     public String toString() {
-        return "model.CrispyFlour{" +super.toString() +
+        return "CrispyFlour{" +super.toString() +
                 " ,quantity=" + quantity +
                 '}';
     }

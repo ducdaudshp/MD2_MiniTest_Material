@@ -63,7 +63,7 @@ public class Meat extends Material implements Discount {
 
     @Override
     public String toString() {
-        return "model.Meat{" + super.toString()+
+        return "Meat{" + super.toString()+
                 " ,weight=" + weight +
                 '}';
     }
